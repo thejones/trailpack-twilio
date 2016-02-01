@@ -1,0 +1,53 @@
+{
+  "name": "trailpack-twilio",
+  "version": "0.0.0",
+  "description": "Add a Trails service for twilio",
+  "homepage": "https://github.com/thejones/trailpack-twilio",
+  "author": {
+    "name": "Alex Jones",
+    "email": "alexander.t.jones@gmail.com",
+    "url": "https://github.com/thejones"
+  },
+  "files": [
+    "lib",
+    "config",
+    "archetype",
+    "api"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "trailpack",
+    "trails",
+    "trailjs",
+    "twilio",
+    "sms"
+  ],
+  "dependencies": {
+    "lodash": "^4.0.1",
+    "trailpack": "^1.0.0-alpha-2",
+    "trails-service": "^1.0.0-alpha-1"
+  },
+  "devDependencies": {
+    "eslint": "^2.0.0-beta.1",
+    "eslint-config-trails": "^1.0.1",
+    "machinepack-json": "^1.2.1",
+    "mocha": "^2.3.4",
+    "smokesignals": "^1.0.2",
+    "trailpack-core": "^1.0.0-alpha-3",
+    "trails": "^1.0.0-alpha-6"
+  },
+  "bundledDependencies": [
+    "trailpack"
+  ],
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "https://github.com/thejones/trailpack-twilio.git",
+  "license": "MIT"
+}
