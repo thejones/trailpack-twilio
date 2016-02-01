@@ -25,7 +25,7 @@ module.exports = {
 ```
 
 ## Usage
-Now you can send emails like this : 
+Now you can send sms like this : 
 
 ```
 this.app.services.TwilioService.sendMessage({
