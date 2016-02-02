@@ -1,1 +1,1 @@
-exports.EmailService = require('./TwilioService')
+exports.TwilioService = require('./TwilioService')

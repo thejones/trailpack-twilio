@@ -19,10 +19,6 @@ module.exports = class Twilio extends Trailpack {
    * Configure twilio
    */
   configure() {
-    const config = this.app.config.twilio
-    if (!config.client) {
-      config.client = ''
-    }
     return Promise.resolve()
   }
 

@@ -1,6 +1,7 @@
 # trailpack-twilio
 
-## WIP DO NOT USE
+## WIP
+# Currently only sends sms message
 :package: Add a Trails service to sending sms messages
 
 ## Intallation
@@ -29,13 +30,17 @@ Now you can send sms like this :
 
 ```
 this.app.services.TwilioService.sendMessage({
-      to: '555-555-5555', 
-      from: '555-555-5555', 
-      body: 'Hello world.', 
-      mediaUrl: '', 
-    }, (err, info) => {
-
-    })
+  to: '+15555555555', 
+  from: '+15555555555', 
+  body: 'Hello trails world.' 
+}, (err, info) => {
+  if (err) {
+    console.log(err)
+    return
+  }
+  console.log(info)
+  return
+})
 ```
 
 ## License

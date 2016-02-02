@@ -11,7 +11,6 @@ const App = {
     twilio: {
         accountSid: '',
         authToken: ''
-      }
     },
     main: {
       packs: [
