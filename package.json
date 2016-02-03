@@ -1,6 +1,6 @@
 {
   "name": "trailpack-twilio",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Add a Trails service for twilio",
   "homepage": "https://github.com/thejones/trailpack-twilio",
   "author": {
